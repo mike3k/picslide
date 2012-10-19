@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'PicSlide' target in the 'PicSlide' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define kEasyCount          4
+#define kMediumCount        8
+#define kHardCount          12
+#define kImpossibleCount    20
+
+#define kOldMediumCount     6
+#define kOldHardCount       8
+#define kOldImpossibleCount 16
